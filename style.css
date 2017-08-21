@@ -1,0 +1,35 @@
+@charset "UTF-8";
+/* CSS Document */
+.lara {
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+.nav{
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+.nav li{
+    display:inline;
+}
+.nav a{
+    display:inline-block;
+	color: black;
+    padding:10px;
+	text-decoration:none; 
+	
+}
+.laraenluna {
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	 width:100%;
+    height:100%;
+}
+h1 {
+	text-align:center;
+}
+p {
+	text-align:center;
+}
