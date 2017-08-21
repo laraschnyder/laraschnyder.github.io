@@ -1,29 +1,21 @@
----
-	layout: default
-	---
-	
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+</head>
 
-	<div class="home">
-	
+<body class="lara">
+	<img src="Schermafbeelding 2017-06-21 om 12.19.03 (1).jpg" alt="" width="497" height="209" class="lara"/>
+	<ul class="nav">
+  <li><a href="/about/">Home</a></li>
+  <li><a href="/work/">Blog</a></li>
+  <li><a href="/clients/">About us</a></li>
+</ul>
+<img src="IMG_8677 (1).jpg" alt="" width="2882" height="2094" class="laraenluna"/>
+	<h1>Blog post</h1>
+	<p>bla bla bla</p>
+</body>
+</html>
 
-	  <h1 class="page-heading">Posts</h1>
-	
-
-	  <ul class="post-list">
-	    {% for post in site.posts %}
-	      <li>
-	        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-	
-
-	        <h2>
-	          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-	        </h2>
-	      </li>
-	    {% endfor %}
-	  </ul>
-	
-
-	  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-	
-
-	</div>
