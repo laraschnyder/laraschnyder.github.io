@@ -13,6 +13,16 @@ body {
 }
 
 
+.social-icon {
+  display: inline-block;
+	width: 25px;
+	height: 25px;
+float: left;
+	padding: 0px 0px 0px 25px;
+
+}
+
+
 .nav  {
 	height: 132px;
 	width: 100%;
@@ -90,10 +100,12 @@ ul li:hover a {
 h1 {
 	text-align:center;
 }
+
 h2 {
 	text-align:center;
 }
-
 p {
 	text-align:center;
 }
+
+
