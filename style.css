@@ -2,27 +2,17 @@
 /* CSS Document */
 
 body {
-	background-color:#FEEDF7;
+	background-color:white;
 }
 
 .logo {
-	width: 250px;
-	height: 100px;
+	width: 400px;
+	height: 150px;
 	display:block;
-	float:left;
-	margin-top: 25px;
-	margin-bottom: 10px;
-	margin-left: 150px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
-.search {
-	width: 15px;
-	height: 15px;
-	padding-right: 10px;
-	padding-left: 600px;
-	
-
-}
 
 .nav  {
 	height: 132px;
@@ -43,31 +33,29 @@ body {
 }
 
 .main-nav ul   {
-	padding-top: 70px;
-	padding-right: 450px;
-	margin: 0px;
+		display:block;
+	margin-left: 10px;
+	margin-right: 90px;
   text-align:center;
 }
+
 .main-nav li    {
 	list-style-type: none;
-	padding: 0px;
 	height: 24px;
-	margin-top: 4px;
-	margin-bottom: 4px;
   display:inline;
   
 }
 .main-nav li a    {
 	color: black;
 	background-color:transparent;
-	font-size: 10px;
+	font-size:12px;
+	font-family: helvetica;
+	font-weight: 500;
 	text-transform: uppercase;
-	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	letter-spacing: 2px;
 	text-decoration: none;
-	padding-right: 1em;
-	padding-left: 1em;
 	line-height: 2em;
-	margin-right: 16px;
+	padding: 5px;
 }
 
 
@@ -85,7 +73,7 @@ ul li:hover a {
 }
 
 .main-nav li:first-child {
-	margin-left:20px;
+	
 }
 
 
