@@ -15,32 +15,31 @@ body {
 
 .ig
 {
-	
 	height: 20px;
 	width: 20px;
+    opacity: 1;
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+   }
 
-}
-
-.ig:hover
-{
-	
-	height: 20px;
-	width: 20px;
-
-}
+   .ig:hover {
+      opacity: 0.2;
+      }
 
 .pinterest
 {
-	background: url(pinterest.png);
-		display: block;
 	height: 20px;
-	width: 20px;
-}
+	width: 20px; 
+    opacity: 1;
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+   }
 
-.pinterest:hover
-{
-	background: url(pinteresthover.png);
-}
+   .pinterest:hover {
+      opacity: 0.2;
+      }
 
 
 .nav  {
