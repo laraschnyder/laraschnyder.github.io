@@ -2,8 +2,15 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Lara Schnyder</title>
+	<title>Lara Schnyder</title>
+	
+
 <link href="style.css" rel="stylesheet" type="text/css">
+
+<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+
+
 
 </head>
 
@@ -13,32 +20,42 @@
 	<div id="myMenu">
   <div class="myWrapper">
     <nav>
-    <a href="index.html"><img src="logo.png" height="209" width="497" class="logo" /></a>
+    <a href="index.html"><img src="images/logo.png" height="209" width="497" class="logo" /></a>
     </nav>
   </div>
 </div>
 
 
-<img src="instagram.png" alt="" width="128" height="128" class="ig"/>
-<img src="pinterest.png" alt="" width="256" height="256" class="pinterest"/>
 
 <div id="top-nav"></div>
 <ul class= "main-nav">
  <ul id="main-nav2" class="mn">
   <li><a href="index.html">home</a></li>
-  <li><a href="motherhood.html">motherhood</a></li>
-  <li><a href="lifestyle.html">lifestyle</a></li>
+  <li><a href="blog.html">blog</a></li>
   <li><a href="about.html">about</a></li>
 </ul>
 	</ul>
 <br>
- 
-        
-       
-
-<img src="IMG_8677 (1).jpg" alt="" width="2882" height="2094" class="laraenluna"/>
-<h1>Latest posts</h1>
-
+ <br>
+  <br>   
+   <br>
+   <br>
+<br>
+   
+<div class="your-class">
+  <div><img src="images/slider/image1.jpg" alt=""  width="100%"/></div>
+  <div><img src="images/slider/image2.jpg" alt=""  width="100%"/></div>
+  <div><img src="images/slider/image3.jpg" alt=""  width="100%"/></div>
+</div>  
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 	<footer>
 			<h2>@lara_schnyder today</h2>
 	
@@ -47,10 +64,24 @@
 <br>
 
 <a href="https://www.instagram.com/lara_schnyder/">
-<img src="followig.jpg" alt="" width="951" height="203" class="followig" border="0">
+<img src="images/social/followig.jpg" alt="" width="951" height="203" class="followig" border="0">
 </a>
 </footer>
 <br>
 <br>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="slick/slick.min.js"></script>
+				
+<script type="text/javascript">
+$(document).ready(function(){
+  $('.your-class').slick({
+  arrows: false,
+	  dots: true,
+	  autoplay: true
+  });
+});
+	</script>
+
 </body>
 </html>
