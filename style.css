@@ -200,6 +200,10 @@ p.blogposttext {
 	margin-left: 700px;
 }
 
+a:link {
+	text-decoration: none;
+}
+
 .ig
 {
 	margin-left: 60px;
