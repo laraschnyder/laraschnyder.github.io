@@ -48,16 +48,20 @@ footer {
 	background-color: white;
 	height: 32px;
 	width: 100%;
-	float: right;
+
 }
 
 .main-nav ul   { 
  text-align: center;
+	margin-top: 40px;
+	margin-left: 900px;
+	margin-right: 10px;
 }
 
 .main-nav li    {
 	display:inline;
-	float: right;
+	
+	
 	list-style-type: none;
 	height: 24px;
   
@@ -75,8 +79,6 @@ footer {
 	text-decoration: none;
 	line-height: 2em;
 	padding: 5px;
-	margin-top: 200px;
-	
 }
 
 
@@ -96,6 +98,7 @@ ul li:hover a {
 .main-nav li:first-child {
 	
 }
+
 
 
 
