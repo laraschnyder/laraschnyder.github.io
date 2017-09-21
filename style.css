@@ -227,6 +227,7 @@ ul li:hover a {
 .titleblog {
 	text-align: center;
 	font-weight: bold;
+	color:black;
 }
 
 .textblog {
@@ -307,6 +308,10 @@ a:link {
 	text-decoration: none;
 	color: black;
 	font-weight: bolder;
+}
+
+a:visited {
+	color:black;
 }
 
 .ig
