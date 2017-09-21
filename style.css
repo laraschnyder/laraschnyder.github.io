@@ -283,8 +283,24 @@ ul li:hover a {
 	margin-left: 740px;
 }
 
+.abouttus {
+	color:black;
+} 
+
+.abouttext {
+	color: grey;
+}
+
 .collabs {
 	margin-left: 740px;
+}
+
+.collabtitle {
+	color:black;
+}
+
+.collabtext {
+	color:grey;
 }
 
 a:link {
