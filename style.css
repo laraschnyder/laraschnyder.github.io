@@ -180,7 +180,7 @@ ul li:hover a {
 	margin-top: -100px;
 	margin-bottom: -1000px;
 	margin-left:25px;
-	
+	color: grey;
 	font-family: helvetica;
    
 }
@@ -232,6 +232,7 @@ ul li:hover a {
 .textblog {
 	text-align: left;
 	margin-left: 300px;
+	color: grey;
 }
 
 /* ~~ Footer ~~ */
