@@ -279,11 +279,11 @@ ul li:hover a {
 }
 
 .about {
-	margin-left: 700px;
+	margin-left: 740px;
 }
 
 .collabs {
-	margin-left: 700px;
+	margin-left: 740px;
 }
 
 a:link {
@@ -321,7 +321,17 @@ a:link {
       opacity: 0.2;
       }
 
-.blogloving {
+.heart {
+	height: 20px;
+	width: 20px;
+	opacity: 1;
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+}
+
+.heart:hover {
+	opacity: 0.2;
 }
 
 
