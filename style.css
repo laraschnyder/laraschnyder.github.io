@@ -43,33 +43,18 @@ footer {
 
 
 
-/* ~~ Top Navigation Bar ~~ */
-.navigation-bar   {
-	background-color: white;
-	height: 32px;
-	width: 100%;
+/*Mobile View*//* ~~ Top Navigation Bar ~~ */
 
-}
-
-.main-nav ul   { 
- text-align: center;
-	margin-top: 40px;
-	margin-left: 900px;
-	margin-right: 10px;
-}
-
-.main-nav li    {
-	display:inline;
+	.main-nav ul {
+		text-align: center;
+		margin-right: 75px;
+	}
 	
+	.main-nav ul li {
+		display: inline-block;
+		list-style-type: none;
 	
-	list-style-type: none;
-	height: 24px;
-  
-	
-}
-
-.main-nav li a    {
-	color: black;
+		color: black;
 	background-color:white;
 	font-size:12px;
 	font-family: helvetica;
@@ -79,8 +64,8 @@ footer {
 	text-decoration: none;
 	line-height: 2em;
 	padding: 5px;
-}
-
+	}
+	
 
 .main-nav a:hover {
     background-color: white;
@@ -95,9 +80,6 @@ ul li:hover a {
     color: black;
 }
 
-.main-nav li:first-child {
-	
-}
 
 
 /* ~~ Blog "header" ~~ */
@@ -615,4 +597,104 @@ a:visited {
 .heart:hover {
 	opacity: 0.2;
 }
+
+
+/*Tablet View*/
+
+@media (min-width: 768px) {
+
+	.main-nav ul {
+		text-align: center;
+		margin-right: 75px;
+	}
+	
+	.main-nav ul li {
+		display: inline-block;
+		list-style-type: none;
+	
+		color: black;
+	background-color:white;
+	font-size:12px;
+	font-family: helvetica;
+	font-weight: 500;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	text-decoration: none;
+	line-height: 2em;
+	padding: 5px;
+	}
+	
+
+.main-nav a:hover {
+    background-color: white;
+    color: black;
+}
+
+ul:hover li a{
+    color: grey;
+}
+
+ul li:hover a {
+    color: black;
+}
+}
+
+
+/*Desktop View*/
+
+@media (min-width: 1024px){	
+	
+	.logo {
+		float: left;
+	}	
+	
+	.main-nav ul   { 
+float:right;
+margin-top: 15px;
+		margin-right: 30px;
+
+}
+
+.main-nav li    {
+	display:inline;
+	
+	
+	list-style-type: none;
+	height: 24px;
+}
+	
+	}
+	
+.main-nav li a    {
+	color: black;
+	background-color:white;
+	font-size:12px;
+	font-family: helvetica;
+	font-weight: 500;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	text-decoration: none;
+	line-height: 2em;
+	padding: 5px;
+}
+
+
+.main-nav a:hover {
+    background-color: white;
+    color: black;
+}
+
+ul:hover li a{
+    color: grey;
+}
+
+ul li:hover a {
+    color: black;
+}
+}
+
+
+
+
+
 
