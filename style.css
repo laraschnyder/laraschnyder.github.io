@@ -100,28 +100,177 @@ ul li:hover a {
 }
 
 
-
 /* ~~ Blog "header" ~~ */
 
 
-.latestposts {
-	text-align: center;
+
+
+.blogpost2index {
+ 
+     display: table;
+    width: 800px;
+    height: 1000px;
+    margin-top: -1100px;
+    margin-left: auto;
+    margin-right: 600px;
+    margin-bottom: auto;
+    background-color: white;
+    text-align: center;
+}
+
+.blogpost2index > div {
+    display: table-row;
+}
+
+.blogpost2index > div > div {
+    display: table-cell;
+    vertical-align: middle;
+	
+}
+
+.blogpost2index span {
+
+   display: block;
+   text-align: left;
+	
+margin-top:532px;
+	
+	margin-left:25px;
+	color: grey;
 	font-family: helvetica;
-	font-weight: 900;
-	text-transform: uppercase;
+}
+
+.blogpost2header {
+		display: block;
+	margin-top: -300px;
+	margin-left:auto;
+	margin-right: auto;
+	width: 60%;
+	height: 60%;
+	 opacity: 1;
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+}
+
+.blogpost2header:hover {
+	 opacity: 0.4;
+}
+
+.blogpost2headertitle {
+	font-family: helvetica;
 	letter-spacing: 2px;
-	padding: 10px;
+	font-size: 30px;
+	font-weight:300;
+	margin-left: 220px;
+	margin-right:0px;
+	margin-top: 10px;
+	
+	 opacity: 1;
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+}
+
+.blogpost2headertitle:hover {
+  opacity: 0.4;
+}
+
+.a: {
+	color:black;
+}
+
+.blogpost2headerdate {
+		color: grey;
+	text-transform: uppercase;
+	font-size: 10px;
+	letter-spacing: 1px;
+	margin-top:10px;
+	margin-left: 300px;
+	margin-right: 0px;
+	margin-bottom: 60px;
+	font-family: helvetica;
+}
+
+.continuereading2 {
+width:30%;
+	height:30%;
+	margin-left: 120px;
+	margin-top: 10px;
+	 opacity: 1;
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+}
+
+.continuereading2:hover {
+	  opacity: 0.4;
+}
+.button:active {
+    background-color: #ccc;
 }
 
 
 
+.blogpost1index {
+   display: table;
+    width: 800px;
+    height: 1000px;
+    margin-top: -500px;
+    margin-left: 700px;
+    margin-right: auto;
+    margin-bottom: auto;
+    background-color: white;
+    text-align: center;
+  
+}
+
+.blogpost1index > div {
+    display: table-row;
+}
+
+.blogpost1index > div > div {
+    display: table-cell;
+    vertical-align: middle;
+	
+}
+
+.blogpost1index span {
+		display: block;
+   text-align: left;
+	margin-top: 500px;
+	
+	margin-left:25px;
+	color: grey;
+	font-family: helvetica;
+   
+}
+	
+.blogpost1header {
+	display: block;
+	  margin-top: -1000px;
+	margin-left:auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	width: 60%;
+	height: 60%;
+
+	 opacity: 1;
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+}
+
+   .blogpost1header:hover {
+      opacity: 0.4;
+      }
 
 .date {
 	color: grey;
 	text-transform: uppercase;
 	font-size: 10px;
 	letter-spacing: 1px;
-	margin-top:40px;
+	margin-top:10px;
 	margin-left: 300px;
 	margin-right: 0px;
 	margin-bottom: 60px;
@@ -135,7 +284,7 @@ ul li:hover a {
 	font-weight:300;
 	margin-left: 220px;
 	margin-right:0px;
-	margin-top: -315px;
+	margin-top: 10px;
 	
 	 opacity: 1;
    transition: opacity .25s ease-in-out;
@@ -152,26 +301,29 @@ ul li:hover a {
 }
 
 .blogtextheader {
-	margin-top: 10px;
+	margin-top: 20px;
 	margin-left: 150px;
 	margin-right: auto;
 	
 }
 
-.continuereading {
+.continuereading1 {
 width:30%;
 	height:30%;
 	margin-left: 120px;
-	margin-top: 20px;
+	margin-top: 10px;
 	 opacity: 1;
    transition: opacity .25s ease-in-out;
    -moz-transition: opacity .25s ease-in-out;
    -webkit-transition: opacity .25s ease-in-out;
 }
 
-.continuereading:hover {
+.continuereading1:hover {
 	  opacity: 0.4;
 }
+
+
+/* ~~ Blog post 1~~ */
 
 .blogpost1 {
     display: table;
@@ -225,12 +377,6 @@ width:30%;
    .blogpost1header:hover {
       opacity: 0.4;
       }
-
-
-
-
-/* ~~ Blog post 1~~ */
-
 .blogpost1image {
 	width: 90%;
 	height: 90%;
@@ -266,6 +412,90 @@ width:30%;
 	
 	color: grey;
 }
+
+/* ~~ Blog post 2~~ */
+
+
+
+.blogpost2 {
+    display: table;
+    width: 1000px;
+    height: 2400px;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    background-color: white;
+    text-align: center;
+  
+}
+
+.blogpost2 > div {
+    display: table-row;
+}
+
+.blogpost2 > div > div {
+    display: table-cell;
+    vertical-align: middle;
+	
+}
+
+.blogpost2 span {
+	display: block;
+   text-align: left;
+	
+	margin-top: -100px;
+	margin-bottom: -1000px;
+	margin-left:25px;
+	color: grey;
+	
+   
+}
+
+
+.blogpost2image2 {
+	width: 90%;
+	height:90%;
+
+}
+
+.blogpost2image3 {
+	width: 90%;
+	height:90%;
+
+}
+.blogpost2image4 {
+	width: 90%;
+	height:90%;
+
+}
+.dateblogpost2 {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 10px;
+	letter-spacing: 1px;
+	color: grey;
+	margin-left: -50px;
+	font-family: helvetica;
+}
+
+.titleblogpost2 {
+color:black;
+font-family: helvetica;
+	letter-spacing: 2px;
+	font-size: 30px;
+	font-weight:300;
+	margin-left: 340px;
+	margin-top: -850px;
+}
+
+.textblogpost2 {
+		margin-top: -30px;
+	margin-left: 100px;
+font-family: helvetica;
+	color: grey;
+}
+
 
 /* ~~ Footer ~~ */
 
