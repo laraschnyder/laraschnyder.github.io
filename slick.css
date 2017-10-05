@@ -1,7 +1,7 @@
-/* Slider */
 .slick-slider
 {
-    position: relative;
+	
+	position: relative;
 
     display: block;
     box-sizing: border-box;
@@ -20,6 +20,7 @@
 
 .slick-list
 {
+	
     position: relative;
 
     display: block;
@@ -28,6 +29,7 @@
     margin: 0;
     padding: 0;
 }
+
 .slick-list:focus
 {
     outline: none;
@@ -50,13 +52,16 @@
 
 .slick-track
 {
+	
     position: relative;
     top: 0;
     left: 0;
-
     display: block;
     margin-left: auto;
     margin-right: auto;
+	
+	
+	
 }
 .slick-track:before,
 .slick-track:after
@@ -76,6 +81,7 @@
 
 .slick-slide
 {
+
     display: none;
     float: left;
 
@@ -86,18 +92,128 @@
 {
     float: right;
 }
+
+
+
+
+/*Mobile View*/
 .slick-slide img
 {
+	width: 96%;
+	height: 96%;
+margin: 0 auto;
     display: block;
+ opacity: 1;
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+	
 }
+
+.slick-slide img:hover {
+	opacity: 0.8;
+}
+
 .slick-slide.slick-loading img
 {
+	
     display: none;
 }
 .slick-slide.dragging img
 {
     pointer-events: none;
 }
+
+/*Tablet View*/
+
+.slick-slide img
+{
+	width: 96%;
+	height: 96%;
+margin: 0 auto;
+    display: block;
+ opacity: 1;
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+	
+}
+
+.slick-slide img:hover {
+	opacity: 0.8;
+}
+
+.slick-slide.slick-loading img
+{
+	
+    display: none;
+}
+.slick-slide.dragging img
+{
+    pointer-events: none;
+}
+
+/*Desktop View*/
+
+@media (min-width: 1024px) {
+	
+	.slick-slide img
+{
+	width: 75%;
+	height: 75%;
+    display: block;
+ opacity: 1;
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+	
+}
+
+.slick-slide img:hover {
+	opacity: 0.8;
+}
+	
+	
+.slick-slide.slick-loading img
+{
+	width: 50%;
+	height: 50%;
+    display: none;
+}
+.slick-slide.dragging img
+{
+    pointer-events: none;
+	width: 50%;
+	height: 50%;
+}
+
+	
+	
+	.slick-slider
+{
+	
+	position: relative;
+margin-left: 250px;
+	margin-right: 250px;
+    display: block;
+    box-sizing: border-box;
+
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+        touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+	
+}
+
+
+
 .slick-initialized .slick-slide
 {
     display: block;
