@@ -92,7 +92,7 @@ ul li:hover a {
 
 .latestblogposts {
 	font-family:helvetica, 'sans-serif';
-
+text-align:center;
 	margin-left: auto;
 	margin-right: auto;
 	text-transform: uppercase;
@@ -103,7 +103,7 @@ ul li:hover a {
 
 .latestblogposts2 {
 	font-family:helvetica, 'sans-serif';
-
+text-align:center;
 	margin-left: auto;
 	margin-right: auto;
 	text-transform: uppercase;
@@ -117,6 +117,7 @@ ul li:hover a {
 .blogbutton {
 	margin-left: auto;
 	margin-right: auto;
+	text-align:center;
 	font-size: 12px;
 	font-weight:700;
 	font-family:helvetica, 'sans-serif';
