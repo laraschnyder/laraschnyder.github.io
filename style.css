@@ -81,229 +81,54 @@ ul li:hover a {
 }
 
 
-
-/* ~~ Blog "header" ~~ */
-
+/* ~~ Latest blogposts ~~ */
 
 
 
-.blogpost2index {
- 
-     display: table;
-    width: 800px;
-    height: 1000px;
-    margin-top: -1100px;
-    margin-left: auto;
-    margin-right: 600px;
-    margin-bottom: auto;
-    background-color: white;
-    text-align: center;
-}
+.latestblogposts {
+	font-family:helvetica, 'sans-serif';
 
-.blogpost2index > div {
-    display: table-row;
-}
-
-.blogpost2index > div > div {
-    display: table-cell;
-    vertical-align: middle;
-	
-}
-
-.blogpost2index span {
-
-   display: block;
-   text-align: left;
-	
-margin-top:532px;
-	
-	margin-left:25px;
-	color: grey;
-	font-family: helvetica;
-}
-
-.blogpost2header {
-		display: block;
-	margin-top: -300px;
-	margin-left:auto;
+	margin-left: auto;
 	margin-right: auto;
-	width: 60%;
-	height: 60%;
-	 opacity: 1;
-   transition: opacity .25s ease-in-out;
-   -moz-transition: opacity .25s ease-in-out;
-   -webkit-transition: opacity .25s ease-in-out;
-}
-
-.blogpost2header:hover {
-	 opacity: 0.4;
-}
-
-.blogpost2headertitle {
-	font-family: helvetica;
-	letter-spacing: 2px;
-	font-size: 30px;
-	font-weight:300;
-	margin-left: 220px;
-	margin-right:0px;
-	margin-top: 10px;
-	
-	 opacity: 1;
-   transition: opacity .25s ease-in-out;
-   -moz-transition: opacity .25s ease-in-out;
-   -webkit-transition: opacity .25s ease-in-out;
-}
-
-.blogpost2headertitle:hover {
-  opacity: 0.4;
-}
-
-.a: {
-	color:black;
-}
-
-.blogpost2headerdate {
-		color: grey;
 	text-transform: uppercase;
-	font-size: 10px;
-	letter-spacing: 1px;
-	margin-top:10px;
-	margin-left: 300px;
-	margin-right: 0px;
-	margin-bottom: 60px;
-	font-family: helvetica;
-}
-
-.continuereading2 {
-width:30%;
-	height:30%;
-	margin-left: 120px;
-	margin-top: 10px;
-	 opacity: 1;
-   transition: opacity .25s ease-in-out;
-   -moz-transition: opacity .25s ease-in-out;
-   -webkit-transition: opacity .25s ease-in-out;
-}
-
-.continuereading2:hover {
-	  opacity: 0.4;
-}
-.button:active {
-    background-color: #ccc;
-}
-
-
-
-.blogpost1index {
-   display: table;
-    width: 800px;
-    height: 1000px;
-    margin-top: -500px;
-    margin-left: 700px;
-    margin-right: auto;
-    margin-bottom: auto;
-    background-color: white;
-    text-align: center;
-  
-}
-
-.blogpost1index > div {
-    display: table-row;
-}
-
-.blogpost1index > div > div {
-    display: table-cell;
-    vertical-align: middle;
+	font-size: 23px;
+	letter-spacing: 5px;
 	
 }
 
-.blogpost1index span {
-		display: block;
-   text-align: left;
-	margin-top: 500px;
-	
-	margin-left:25px;
-	color: grey;
-	font-family: helvetica;
-   
-}
-	
-.blogpost1header {
-	display: block;
-	  margin-top: -1000px;
-	margin-left:auto;
+.latestblogposts2 {
+	font-family:helvetica, 'sans-serif';
+
+	margin-left: auto;
 	margin-right: auto;
-	margin-bottom: auto;
-	width: 60%;
-	height: 60%;
-
-	 opacity: 1;
-   transition: opacity .25s ease-in-out;
-   -moz-transition: opacity .25s ease-in-out;
-   -webkit-transition: opacity .25s ease-in-out;
-}
-
-   .blogpost1header:hover {
-      opacity: 0.4;
-      }
-
-.date {
-	color: grey;
 	text-transform: uppercase;
-	font-size: 10px;
-	letter-spacing: 1px;
-	margin-top:10px;
-	margin-left: 300px;
-	margin-right: 0px;
-	margin-bottom: 60px;
-	font-family: helvetica;
-}
-
-.title {
-	font-family: helvetica;
-	letter-spacing: 2px;
-	font-size: 30px;
-	font-weight:300;
-	margin-left: 220px;
-	margin-right:0px;
-	margin-top: 10px;
+	font-size: 12px;
+	letter-spacing: 3px;
 	
-	 opacity: 1;
-   transition: opacity .25s ease-in-out;
-   -moz-transition: opacity .25s ease-in-out;
-   -webkit-transition: opacity .25s ease-in-out;
 }
 
-.title:hover {
-	  opacity: 0.4;
-}
 
-.a: {
-	color:black;
-}
 
-.blogtextheader {
-	margin-top: 20px;
-	margin-left: 150px;
+.blogbutton {
+	margin-left: auto;
 	margin-right: auto;
-	
+	font-size: 12px;
+	font-weight:700;
+	font-family:helvetica, 'sans-serif';
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	 border: 2px outset black;
+	border-radius: 3px;
+   background-color: transparent;
+   height:80px;
+   width:220px;
+   cursor:pointer;
 }
 
-.continuereading1 {
-width:30%;
-	height:30%;
-	margin-left: 120px;
-	margin-top: 10px;
-	 opacity: 1;
-   transition: opacity .25s ease-in-out;
-   -moz-transition: opacity .25s ease-in-out;
-   -webkit-transition: opacity .25s ease-in-out;
+.blogbutton:hover {
+	background-color:black;
+	color:white;
 }
-
-.continuereading1:hover {
-	  opacity: 0.4;
-}
-
 
 /* ~~ Blog post 1~~ */
 
