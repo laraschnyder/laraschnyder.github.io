@@ -71,7 +71,7 @@
     line-height: 1;
 
     opacity: .75;
-    color: white;
+    color: transparent;
 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -124,7 +124,7 @@
     position: absolute;
 margin-right: 100px;
 	margin-left: 100px;
-    top: 490px;
+ top: 490px;
 
     display: block;
 
@@ -184,7 +184,7 @@ margin-right: 100px;
 .slick-dots li button:before
 {
     font-family: 'slick';
-    font-size: 60px;
+    font-size: 20px;
     line-height: 22px;
 	line-width: 18px;
 
