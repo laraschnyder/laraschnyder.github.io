@@ -454,6 +454,46 @@ a:visited {
 }
 
 
+/* ~~ Contact ~~ */
+
+.message {
+	
+    padding: 50px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+
+.contactbutton {
+	
+   border: 1px solid black;
+ 	color: black;
+text-align:center;
+	background-color:pink;
+	font-size:12px;
+	font-family: helvetica;
+	font-weight: 500;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	line-height: 2em;
+	padding: 20px;
+	 -o-transition: background-color .2s ease-in; 
+	-moz-transition: background-color .2s ease-in;
+	-webkit-transition: background-color .2s ease-in; 
+	transition: background-color .2s ease-in; 
+}
+
+
+.contactbutton:hover {
+    background-color:#000000;    
+	color: white;
+	border: 1px solid #000000;
+}
+
+.contactbutton:active {
+    background-color: #ccc;
+}
+
 /*Tablet View*/
 
 @media (min-width: 768px) {
