@@ -36,6 +36,46 @@ body {
 	margin-right: auto;
 }
 
+/*Mobile View*/
+
+
+/*Top Navigation Bar*/
+
+	.main-nav ul {
+		text-align: center;
+		
+	}
+	
+	.main-nav ul li {
+		display: inline-block;
+		list-style-type: none;
+	
+		color: black;
+	background-color:white;
+	font-size:12px;
+	font-family: helvetica;
+	font-weight: 500;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	text-decoration: none;
+	line-height: 2em;
+	padding: 5px;
+	}
+	
+
+.main-nav a:hover {
+    background-color: white;
+    color: black;
+}
+
+ul:hover li a{
+    color: grey;
+}
+
+ul li:hover a {
+    color: black;
+}
+
 .footer {
 	width: 80%;
     height: 80%;
@@ -384,45 +424,7 @@ text-align:center;
 
 /*---------------------------------------------------------------------------------------------------------------------------------------------------*/
 
-/*Mobile View*/
 
-
-/*Top Navigation Bar*/
-
-	.main-nav ul {
-		text-align: center;
-		
-	}
-	
-	.main-nav ul li {
-		display: inline-block;
-		list-style-type: none;
-	
-		color: black;
-	background-color:white;
-	font-size:12px;
-	font-family: helvetica;
-	font-weight: 500;
-	text-transform: uppercase;
-	letter-spacing: 2px;
-	text-decoration: none;
-	line-height: 2em;
-	padding: 5px;
-	}
-	
-
-.main-nav a:hover {
-    background-color: white;
-    color: black;
-}
-
-ul:hover li a{
-    color: grey;
-}
-
-ul li:hover a {
-    color: black;
-}
 
 /*Tablet View*/
 
