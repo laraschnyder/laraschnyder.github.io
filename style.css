@@ -38,6 +38,7 @@ body {
 
 /*Mobile View*/
 
+@media (min-width: 7480px) {
 
 /*Top Navigation Bar*/
 
@@ -101,7 +102,7 @@ a:visited {
 	color:black;
 }
 
-
+}
 
 
 
