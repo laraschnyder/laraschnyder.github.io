@@ -45,7 +45,7 @@ body {
 
 /*Mobile View*/
 
-@media (min-width: 7480px) {
+@media screen and (max-width: 350px) {
 
 /*Top Navigation Bar*/
 
