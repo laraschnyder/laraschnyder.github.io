@@ -200,6 +200,7 @@ a.darken:hover span{color:#fff; visibility:visible;
 }
 
 /*Portraits*/
+
 .p1 {
 		width: 50%;
 	height:50%;
@@ -218,11 +219,12 @@ a.darken:hover span{color:#fff; visibility:visible;
 .p4 {
 		width: 50%;
 	height:50%;
+	float:right;
 }
 .p5 {
 		width: 50%;
 	height:50%;
-	float:right;
+
 }
 .p6 {
 		width: 100%;
