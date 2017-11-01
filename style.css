@@ -329,7 +329,8 @@ a.darken:hover span{color:#fff; visibility:visible;
 .ig {
 height: 17px;
 	width: 17px;
-	align:center;
+float:right;
+padding: 2px;
 	    opacity: 1;
    transition: opacity .25s ease-in-out;
    -moz-transition: opacity .25s ease-in-out;
@@ -343,7 +344,8 @@ height: 17px;
 .pinterest {
 	height: 17px;
 	width: 17px;
-	align:center;
+float:right;
+	padding: 2px;
 	 opacity: 1;
    transition: opacity .25s ease-in-out;
    -moz-transition: opacity .25s ease-in-out;
@@ -356,6 +358,6 @@ height: 17px;
 
 
 .rights {
-	float:right;
+	
 	font-size: 11px;
 }
