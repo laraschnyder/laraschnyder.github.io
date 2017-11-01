@@ -225,31 +225,37 @@ a.darken:hover span{color:#fff; visibility:visible;
 .p1 {
 		width: 50%;
 	height:50%;
+	  padding: 15px;
+	
 }
 .p2 {
 		width: 50%;
 	height:50%;
 	float:right;
-	
+  padding: 15px;
 }
 
 .p3 {
 		width: 100%;
 	height:100%;
+	  padding: 15px;
 }
 .p4 {
 		width: 50%;
 	height:50%;
 	float:right;
+	  padding: 15px;
 }
 .p5 {
 		width: 50%;
 	height:50%;
+	  padding: 15px;
 
 }
 .p6 {
 		width: 100%;
 	height:100%;
+	  padding: 15px;
 }
 
 
