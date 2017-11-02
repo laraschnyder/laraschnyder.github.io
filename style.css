@@ -132,7 +132,20 @@ a:visited {
     }
 }
 
+   .column3 {
+    float: left;
+    width: 33%;
+    padding: 10px;
+}
 
+
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .column3 {
+        width: 100%;
+    }
+}
 
 
 .photos {
