@@ -133,6 +133,16 @@ a:visited {
 	.column img {
     margin-top: 0px;
 }
+		.ig {
+    display: none;
+  }
+	.pinterest {
+		display: none;
+	}
+	
+	.rights {
+		display: none;
+	}
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
