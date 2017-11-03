@@ -219,7 +219,7 @@ a.darken:hover img {
     opacity: 0.3;           
 }
 a.darken span{
-	
+	font-color:black !important;
     visibility:hidden; 
     font-family: 'Pontano Sans', sans-serif;
 	letter-spacing: 1px;
@@ -231,7 +231,7 @@ a.darken span{
       transform: translate(-50%, -50%);
       line-height: 100%;
 }
-a.darken:hover span{color:#fff; visibility:visible;
+a.darken:hover span{color:#black; visibility:visible;
 	
     -webkit-transition: all 0.2s linear;
        -moz-transition: all 0.2s linear;
