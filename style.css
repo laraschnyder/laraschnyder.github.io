@@ -33,7 +33,7 @@ body {
 		display: inline-block;
 		list-style-type: none;
 horizontal-align: center;
-	color: black;
+	color: #323232;
 	font-size:12px;
 letter-spacing:1px;
 font-family: 'Pontano Sans', sans-serif;
@@ -54,7 +54,7 @@ font-family: 'Pontano Sans', sans-serif;
 
 
 .nav a{
-	color:black;
+	color:#323232;
 	text-decoration:none;
     display:inline-block;
     padding:10px;
