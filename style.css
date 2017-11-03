@@ -196,7 +196,7 @@ a:hover{
 }
 
 a.darken {
-
+	color:black !important;
     display: inline-block;
     background: transparent;
     padding: 0;
