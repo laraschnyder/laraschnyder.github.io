@@ -60,6 +60,10 @@ font-family: 'Pontano Sans', sans-serif;
     padding:10px;
 }
 
+a:hover{
+	color:grey;
+}
+
 .nav .current {
 	color:indianred;
 	text-decoration:none;
