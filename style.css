@@ -212,7 +212,7 @@ a.darken:hover img {
     opacity: 0.3;           
 }
 a.darken span{
-		font-color:black !important;
+	
     visibility:hidden; 
     font-family: 'Pontano Sans', sans-serif;
 	letter-spacing: 1px;
