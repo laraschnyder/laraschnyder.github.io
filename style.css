@@ -127,7 +127,7 @@ a:hover{
 	margin-right: auto;
 }
 	
-		.burger-nav {
+.burger-nav {
 		display:block;
 		height: 30px;
 		width:100%;
@@ -136,6 +136,10 @@ a:hover{
 		cursor:pointer;
 	}
 	
+	header {
+		width: 100%;
+		padding: 0;
+	}
 	header .nav ul {
 		overflow:hidden;
 		background:white;
@@ -149,7 +153,7 @@ a:hover{
 	
 		header .nav ul li {
 			float:none;
-			text-align:left;
+			text-align:center;
 			width: 100%;
 			margin:0;
 	}
@@ -161,6 +165,7 @@ a:hover{
 			display:block;
 			margin:0;
 	}
+	
 	
 	.column {
     float: left;
