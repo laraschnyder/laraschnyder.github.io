@@ -127,6 +127,10 @@ a:hover{
 	margin-right: auto;
 }
 	
+	.logo {
+		float:left;
+	}
+	
 .burger-nav {
 		display:block;
 		height: 30px;
