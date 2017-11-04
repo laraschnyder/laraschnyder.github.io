@@ -135,8 +135,9 @@ a:hover{
 		display:block;
 		height: 30px;
 		width:100%;
+	padding:50px;
 		background: url(images/idee/burger.png) no-repeat 98% center;
-		background-color:white;
+		background-color:pink;
 		cursor:pointer;
 	}
 	
