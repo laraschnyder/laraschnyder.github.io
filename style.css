@@ -137,12 +137,12 @@ a:hover{
 		width:100%;
 margin-top: 100px;
 		background: url(burger.png) no-repeat 98% center;
-		background-color:pink;
+		background-color:white;
 		cursor:pointer;
 	}
 	
 	header {
-		width: 50%;
+		width: 100%;
 		padding: 0;
 	}
 	header .nav ul {
