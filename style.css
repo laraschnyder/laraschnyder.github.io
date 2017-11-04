@@ -129,15 +129,17 @@ a:hover{
 	
 	.logo {
 		float:left;
+		padding:10px;
 	}
 	
 .burger-nav {
 		display:block;
 		height: 24px;
 		width:100%;
-margin-top: 10px;
+margin-top: -50px;
+float:right;
 		background: url(burger.png) no-repeat 98% center;
-		background-color:white;
+		background-color:transparent;
 		cursor:pointer;
 	}
 	
