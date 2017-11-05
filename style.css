@@ -174,7 +174,10 @@ float:right;
 	}
 	
 	
-	
+	.burger-nav .current {
+	color:indianred;
+	text-decoration:none;
+}
 	
 	.column {
     float: left;
