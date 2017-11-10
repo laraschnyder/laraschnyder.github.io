@@ -93,12 +93,7 @@ a:hover{
     clear: both;
 }
 
-.aboutme {
-	width: 80%;
-	height:80%;
-	margin-left:auto;
-	margin-right:auto;
-}
+
 
 /* Create four equal columns that floats next to each other */
 .column2 {
@@ -390,6 +385,13 @@ a.darken:hover span{color:#black; visibility:visible;
 
 /*About me*/
 
+.aboutme {
+	width: 80%;
+	height:80%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
 .aboutmeimage {
 	width: 50%;
 	height:50%;
@@ -440,6 +442,13 @@ a.darken:hover span{color:#black; visibility:visible;
 }
 
 /*Contact*/
+
+.contact {
+	width: 80%;
+	height:80%;
+	margin-left:auto;
+	margin-right:auto;
+}
 
 .contacttext {
 font-family:helvetica;
