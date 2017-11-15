@@ -385,7 +385,12 @@ a.darken:hover span{color:#black; visibility:visible;
 
 /*About me*/
 
-
+.aboutme {
+	width: 80%;
+	height:80%;
+	margin-left:auto;
+	margin-right:auto;
+}
 
 .aboutmeimage {
 	width: 50%;
@@ -438,12 +443,7 @@ a.darken:hover span{color:#black; visibility:visible;
 
 /*Contact*/
 
-.contact {
-	width: 100%;
-	height:100%;
-	margin-left:auto;
-	margin-right:auto;
-}
+
 
 .contacttext {
 font-family:helvetica;
