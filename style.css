@@ -264,7 +264,7 @@ a.darken img {
 
 a.darken:hover img {
 	
-    opacity: 0.3;           
+    opacity: 0.1;           
 }
 a.darken span{
 	font-color:black !important;
