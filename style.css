@@ -310,6 +310,24 @@ a.darken:hover span{color:#black; visibility:visible;
 	height:100%;
 }
 
+
+/*Graphics*/
+
+.graphic1 {
+	width: 50%;
+	height: 50%;
+	float:left;
+	padding: 15px;
+	
+}
+
+.graphic2 {
+	width: 50%;
+	height: 50%;
+	float:right;
+padding: 15px;
+}
+
 /*Portraits*/
 .p1 {
 		width: 50%;
