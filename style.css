@@ -125,25 +125,25 @@ float:right;
 		width: 100%;
 		padding: 0;
 	}
-	header .nav ul {
+	header nav ul {
 		overflow:hidden;
 		background:white;
 		height:0;
 	}
 	
-	header .nav ul.open {
+	header nav ul.open {
 		height:auto;
 		
 	}
 	
-		header .nav ul li {
+		header nav ul li {
 			float:none;
 			text-align:center;
 			width: 100%;
 			margin:0;
 	}
 	
-		header .nav ul li a {
+		header nav ul li a {
 			color: black;
 			padding:10px;
 			text-transform: uppercase;
