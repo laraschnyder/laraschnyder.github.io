@@ -118,7 +118,7 @@ nav .current {
 		display:block;
 		height: 40px;
 		width:100%;
-		background: url(images/idee/burger.png) no-repeat 98% center;
+		background: url(burger.png) no-repeat 98% center;
 		background-color:transparent;
 		cursor:pointer;
 	}
