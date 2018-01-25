@@ -97,7 +97,10 @@ nav .current {
     clear: both;
 }
 
-@media (max-width: 600px) {
+/*Mobile*/
+@media screen and (max-width: 480px){
+	
+
 	body {
     margin: 0;
 	width: 95%;
@@ -111,43 +114,41 @@ nav .current {
 		padding:10px;
 	}
 	
-.burger-nav {
+.burger-nav{
 		display:block;
-		height: 24px;
+		height: 40px;
 		width:100%;
-margin-top: -50px;
-float:right;
-		background: url(burger.png) no-repeat 98% center;
+		background: url(images/idee/burger.png) no-repeat 98% center;
 		background-color:transparent;
 		cursor:pointer;
 	}
 	
-	header {
+	header .wrapper{
 		width: 100%;
 		padding: 0;
 	}
-	header nav ul {
+	
+	header nav ul{
 		overflow:hidden;
 		background:white;
 		height:0;
 	}
 	
-	header nav ul.open {
+	header nav ul.open{
 		height:auto;
 		
 	}
 	
-		header nav ul li {
+		header nav ul li{
 			float:none;
-			text-align:center;
+			text-align:left;
 			width: 100%;
 			margin:0;
 	}
 	
-		header nav ul li a {
+		header nav ul li a{
 			color: black;
 			padding:10px;
-			text-transform: uppercase;
 			display:block;
 			margin:0;
 	}
