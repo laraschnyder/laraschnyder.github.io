@@ -119,7 +119,7 @@ nav .current {
 		height: 40px;
 		width:100%;
 	margin-top: 25px;
-		background: url(burger.png) no-repeat 80% center;
+		background: url(burger.png) no-repeat 85% center;
 		background-color:transparent;
 		cursor:pointer;
 	}
