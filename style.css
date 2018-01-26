@@ -48,7 +48,7 @@ a:hover{
 	color:grey;
 }
 
-nav .current {
+nav .current_page_item {
 	color:indianred;
 	text-decoration:none;
 }
