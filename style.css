@@ -145,7 +145,6 @@ nav .current {
 		header nav ul li{
 			float:none;
 			text-align:center;
-			margin-top: 100px;
 			width: 100%;
 			margin:0;
 	}
@@ -153,6 +152,7 @@ nav .current {
 		header nav ul li a{
 			color: black;
 			font-size:14px;
+			margin-top: 100px;
 			padding:25px;
 			display:block;
 			margin:0;
