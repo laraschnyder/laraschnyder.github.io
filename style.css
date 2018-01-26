@@ -112,6 +112,7 @@ nav .current {
 	.logo {
 		float:left;
 		padding:10px;
+		margin-top: -10px;
 	}
 	
 .burger-nav{
