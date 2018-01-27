@@ -110,7 +110,9 @@ nav .current {
 }
 	
 
-	
+	.aboutmeimage {
+	width: 100%;
+}
 	
 	.logo {
 		float:left;
