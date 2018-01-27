@@ -117,6 +117,13 @@ nav .current {
 		margin-top: -6px;
 	}
 	
+	
+	.white img {
+    display: none;
+  }
+	
+	
+	
 .burger-nav{
 		display:block;
 		height: 40px;
