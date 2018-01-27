@@ -12,8 +12,8 @@
 
 body {
     margin: 0;
-	width: 75%;
-	height: 75%;
+	width: 85%;
+	height: 85%;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -109,7 +109,7 @@ nav .current {
 	margin-right: auto;
 }
 	
-	.hgroup.full-container {height:73px!important;}
+
 	
 	
 	.logo {
