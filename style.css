@@ -109,6 +109,9 @@ nav .current {
 	margin-right: auto;
 }
 	
+	.hgroup.full-container {height:73px!important;}
+	
+	
 	.logo {
 		float:left;
 		padding:10px;
