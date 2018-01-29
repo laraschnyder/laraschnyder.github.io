@@ -118,6 +118,11 @@ nav .current {
 	}
 	
 	
+	.row {
+		width: 50%;
+	}
+	
+	
 	.white {
     display: none;
   }
