@@ -36,13 +36,14 @@ nav li {
 }
 
 nav li a {
-  text-decoration: none;
+text-decoration: none;
   color: black;
-  font-family: 'Pontano Sans', sans-serif;
-  text-transform: uppercase;
-		font-weight: 100;
-  font-size:11px;
-  letter-spacing:1px;
+font-family: futura-pt, sans-serif;
+	text-transform: uppercase;
+font-style: normal;
+font-weight: 300;
+    font-size:11px;
+	letter-spacing:1px;
 }
 a:hover{
 	color:grey;
@@ -306,22 +307,26 @@ a.darken:hover span{color:#black; visibility:visible;
 /*Freebies*/
 
 .freebiestitle {
-	text-align: center;
-	font-family: 'Pontano Sans', sans-serif;
+text-align: center;
+	font-family: futura-pt, sans-serif;
+font-style: normal;
+font-weight: 300;
 	font-color: grey;
     font-size:12px;
-    letter-spacing:1px;
+	letter-spacing:1px;
 }
 
 
 /*Philippines*/
 
 .philippinestitle {
-	text-align: center;
-	font-family: 'Pontano Sans', sans-serif;
+text-align: center;
+	font-family: futura-pt, sans-serif;
+font-style: normal;
+font-weight: 300;
 	font-color: grey;
     font-size:12px;
-    letter-spacing:1px;
+	letter-spacing:1px;
 }
 
 .ph1 {
@@ -339,10 +344,12 @@ a.darken:hover span{color:#black; visibility:visible;
 
 .graphicstitle {
 	text-align: center;
-	font-family: 'Pontano Sans', sans-serif;
+	font-family: futura-pt, sans-serif;
+font-style: normal;
+font-weight: 300;
 	font-color: grey;
     font-size:12px;
-    letter-spacing:1px;
+	letter-spacing:1px;
 }
 
 .graphic1 {
@@ -375,20 +382,24 @@ padding: 15px;
 
 .portraitstitle {
 	text-align: center;
-	font-family: 'Pontano Sans', sans-serif;
+	font-family: futura-pt, sans-serif;
+font-style: normal;
+font-weight: 300;
 	font-color: grey;
     font-size:12px;
-    letter-spacing:1px;
+	letter-spacing:1px;
 }
 
 /*Home*/
 
 .hometitle {
 	text-align: center;
-	font-family: 'Pontano Sans', sans-serif;
+	font-family: futura-pt, sans-serif;
+font-style: normal;
+font-weight: 300;
 	font-color: grey;
     font-size:12px;
-    letter-spacing:1px;
+	letter-spacing:1px;
 }
 
 .h1 {
@@ -410,10 +421,12 @@ padding: 15px;
 
 .balititle {
 	text-align: center;
-	font-family: 'Pontano Sans', sans-serif;
+	font-family: futura-pt, sans-serif;
+font-style: normal;
+font-weight: 300;
 	font-color: grey;
     font-size:12px;
-    letter-spacing:1px;
+	letter-spacing:1px;
 }
 
 .b1 {
@@ -447,15 +460,35 @@ padding: 15px;
 	width: 100%;
 	float:middle;
 	padding:10px;
-	font-family: 'Pontano Sans', sans-serif;
+		  text-decoration: none;
+  color: black;
+font-family: futura-pt, sans-serif;
+
+font-style: normal;
+font-weight: 300;
+
+	letter-spacing:1px;
 	font-size:15px;
 
 }
 
 .middle {
 	text-align:center;
-	font-family: 'Pontano Sans', sans-serif;
+	
+	
+	
+	  text-decoration: none;
+  color: black;
+font-family: futura-pt, sans-serif;
+
+font-style: normal;
+font-weight: 300;
+
+	letter-spacing:1px;
+	
+	
 	font-size:15px;
+
 
 }
 
@@ -580,7 +613,13 @@ float:right;
 
 
 .rights {
-		font-family: 'Pontano Sans', sans-serif;
+		text-decoration: none;
+
+font-family: futura-pt, sans-serif;
+
+font-style: normal;
+font-weight: 300;
+
 	color:grey;
 	font-size: 12px;
 	
