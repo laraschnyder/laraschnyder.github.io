@@ -275,9 +275,11 @@ a.darken:hover img {
 a.darken span{
 	font-color:black !important;
     visibility:hidden; 
-    font-family: 'Pontano Sans', sans-serif;
+    font-family: futura-pt, sans-serif;
+font-style: normal;
+font-weight: 300;
 	letter-spacing: 1px;
-    font-size:12px;
+    font-size:11px;
       position: absolute;
       top: 50%;
       left: 50%;
