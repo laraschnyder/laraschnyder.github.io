@@ -302,8 +302,27 @@ a.darken:hover span{color:#black; visibility:visible;
 	text-align:center;
 }
 
+
+/*Freebies*/
+
+.freebiestitle {
+	text-align: center;
+	font-family: 'Pontano Sans', sans-serif;
+	font-color: grey;
+    font-size:12px;
+    letter-spacing:1px;
+}
+
+
 /*Philippines*/
 
+.philippinestitle {
+	text-align: center;
+	font-family: 'Pontano Sans', sans-serif;
+	font-color: grey;
+    font-size:12px;
+    letter-spacing:1px;
+}
 
 .ph1 {
 	width: 100%;
@@ -317,6 +336,14 @@ a.darken:hover span{color:#black; visibility:visible;
 
 
 /*Graphics and Illustrations*/
+
+.graphicstitle {
+	text-align: center;
+	font-family: 'Pontano Sans', sans-serif;
+	font-color: grey;
+    font-size:12px;
+    letter-spacing:1px;
+}
 
 .graphic1 {
 	width: 50%;
@@ -346,8 +373,23 @@ padding: 15px;
 
 /*Portraits*/
 
+.portraitstitle {
+	text-align: center;
+	font-family: 'Pontano Sans', sans-serif;
+	font-color: grey;
+    font-size:12px;
+    letter-spacing:1px;
+}
 
 /*Home*/
+
+.hometitle {
+	text-align: center;
+	font-family: 'Pontano Sans', sans-serif;
+	font-color: grey;
+    font-size:12px;
+    letter-spacing:1px;
+}
 
 .h1 {
 	width: 100%;
@@ -365,6 +407,14 @@ padding: 15px;
 }
 
 /*Bali*/
+
+.balititle {
+	text-align: center;
+	font-family: 'Pontano Sans', sans-serif;
+	font-color: grey;
+    font-size:12px;
+    letter-spacing:1px;
+}
 
 .b1 {
 	width: 100%;
@@ -586,6 +636,30 @@ font-family: 'Pontano Sans', sans-serif;
 
 
 
+	.freebiestitle {
+		display:none;
+	}
 
+.balititle {
+		display:none;
+	}
+	
+	.philippinestitle {
+		display:none;
+	}
+	
+	.graphicstitle {
+		display:none;
+	}
+	
+	.portraitstitle {
+		display:none;
+	}
+	
+	.hometitle {
+		display:none;
+	}
+	
+}
 
 
