@@ -60,6 +60,24 @@ nav .current {
 }
 
 
+#content { 
+	width:50%;
+	float:right;
+	background-color:white;
+}
+
+#sidebar {
+	width:50%; 
+	float:left; 
+	background-color:white; 
+}
+
+#bla {
+	width:50%; 
+	float:left; 
+	background-color:white;
+}
+
 /* Create four equal columns that floats next to each other */
 .column {
     float: left;
@@ -110,7 +128,9 @@ nav .current {
 	margin-right: auto;
 }
 	
-
+    #sidebar, #content, #bla { 
+		float:none; 
+		width:100%; }
 	
 	.logo {
 		float:left;
