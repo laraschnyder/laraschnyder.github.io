@@ -136,6 +136,7 @@ width:50%;
 	
     #sidebar, #content, #bla, #whitee { 
 		float:none; 
+	    padding: 5px;
 		width:100%; }
 	
 	.logo {
