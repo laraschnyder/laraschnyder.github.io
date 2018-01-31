@@ -134,7 +134,7 @@ width:50%;
 	margin-right: auto;
 }
 	
-    #sidebar, #content, #bla, #whitee { 
+    #sidebar, #content, #bla { 
 		float:none; 
 	    padding: 5px;
 		width:100%; }
@@ -155,7 +155,7 @@ width:50%;
 	}
 	
 	
-	.whitee {
+	#whitee {
     display: none;
   }
 	
