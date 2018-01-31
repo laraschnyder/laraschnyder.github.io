@@ -78,6 +78,12 @@ nav .current {
 	background-color:white;
 }
 
+#whitee {
+width:50%;
+	float:right;
+	background-color:white;	
+}
+
 /* Create four equal columns that floats next to each other */
 .column {
     float: left;
@@ -128,7 +134,7 @@ nav .current {
 	margin-right: auto;
 }
 	
-    #sidebar, #content, #bla { 
+    #sidebar, #content, #bla, #whitee { 
 		float:none; 
 		width:100%; }
 	
