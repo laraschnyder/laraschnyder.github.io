@@ -18,6 +18,11 @@ body {
 	margin-right: auto;
 }
 
+.comingsoon {
+	text-align: center;
+	font-weight: bold;
+	background-color:lavenderblush;
+}
 
 .logo {
 	text-align:center;
