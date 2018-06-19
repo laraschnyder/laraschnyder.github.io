@@ -10,6 +10,10 @@
 	text-decoration:none;
 }
 
+a { 
+    color: blue;
+}
+
 body {
     margin: 0;
 	width: 85%;
