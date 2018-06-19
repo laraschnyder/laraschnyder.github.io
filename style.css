@@ -1,0 +1,757 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+* {
+    box-sizing: border-box;
+}
+
+* {
+	text-decoration:none;
+}
+
+body {
+    margin: 0;
+	width: 85%;
+	height: 85%;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+
+.logo {
+	text-align:center;
+	color:black;
+}
+
+nav ul {
+  list-style: none;
+  text-align: center;
+  padding: 0; 
+}
+
+nav li {
+  display: inline;
+  padding: 10px;
+}
+
+nav li a {
+text-decoration: none;
+  color: black;
+font-family: futura-pt, sans-serif;
+	text-transform: uppercase;
+font-style: normal;
+font-weight: 300;
+    font-size:11px;
+	letter-spacing:1px;
+}
+a:hover{
+	color:grey;
+}
+
+nav .current {
+	color:indianred;
+	text-decoration:none;
+}
+
+.logo {
+	text-align:center;
+	color:black;
+}
+
+
+#content { 
+	width:50%;
+	float:right;
+	background-color:white;
+}
+
+#sidebar {
+	width:50%; 
+	float:left; 
+	background-color:white; 
+}
+
+#bla {
+	width:50%; 
+	float:left; 
+	background-color:white;
+}
+
+#whitee {
+width:50%;
+	float:right;
+	background-color:white;	
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+
+.column img {
+    margin-top: 0px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+/* Create four equal columns that floats next to each other */
+.column2 {
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+
+.column2 img {
+    margin-top: 12px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*Mobile*/
+@media screen and (max-width: 480px){
+	
+
+	body {
+    margin: 0;
+	width: 80%;
+	height: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+	
+    #sidebar, #content, #bla { 
+		float:none; 
+	    padding: 5px;
+		width:100%; }
+	
+	.logo {
+		float:left;
+		padding:10px;
+		margin-top: -6px;
+	}
+	
+	
+		.aboutmeimage {
+		width: 100%;
+	}
+	
+	.aboutmetext {
+		width: 100%;
+	}
+	
+	
+	#whitee {
+    display: none;
+  }
+	
+	
+	
+.burger-nav{
+		display:block;
+		height: 40px;
+		width:100%;
+		margin-top: 10px;
+		background: url(burger.png) no-repeat 98% center;
+		background-color:transparent;
+		cursor:pointer;
+	}
+	
+	header .wrapper{
+		width: 100%;
+		padding: 0;
+	}
+	
+	header nav ul{
+		overflow:hidden;
+		background:white;
+		width: 100%;
+		height:0;
+	}
+	
+	header nav ul.open{
+		height:auto;
+		
+	}
+	
+		header nav ul li{
+			float:none;
+			text-align:center;
+			width: 100%;
+			margin:0;
+	}
+	
+		header nav ul li a{
+			color: black;
+			font-size:14px;
+			padding:25px;
+			display:block;
+			margin:0;
+	}
+	
+	
+	burger-nav .current {
+	color:indianred;
+	text-decoration:none;
+}
+	
+	.column {
+    float: left;
+    width: 50%;
+    padding: 5px;
+}
+	.column img {
+    margin-top: 0px;
+}
+	
+		.ig {
+
+  }
+	.pinterest {
+	
+	}
+	
+	.rights {
+	display:none;
+	}
+}
+
+
+
+
+img {
+	width: 100%;
+	max-width: 100%;
+	height: auto;
+	vertical-align: middle;
+}
+
+.col {
+	width: 100%;
+}
+
+.row:before, .row:after {
+	content: "";
+	display: table;
+}
+
+.row:after {
+	clear: both;
+}
+
+
+
+
+
+.photos {
+   /* Prevent vertical gaps */
+   line-height: 0;
+   margin-left:150px;
+   
+   -webkit-column-count: 2;
+   -webkit-column-gap:   0px;
+   -moz-column-count:    2;
+   -moz-column-gap:      0px;
+   column-count:         2;
+   column-gap:           0px;
+   
+}
+.photos img {
+  /* Just in case there are inline attributes */
+  width: 100% !important;
+  height: auto !important;
+}
+
+a.darken {
+	color:black !important;
+    display: inline-block;
+    background: transparent;
+    padding: 0;
+    position:relative;
+	
+}
+
+a.darken img {
+    display: block;
+    
+    -webkit-transition: all 0.2s linear;
+       -moz-transition: all 0.2s linear;
+        -ms-transition: all 0.2s linear;
+         -o-transition: all 0.2s linear;
+            transition: all 0.2s linear;
+}
+
+a.darken:hover img {
+	
+    opacity: 0.1;           
+}
+a.darken span{
+	font-color:black !important;
+    visibility:hidden; 
+    font-family: futura-pt, sans-serif;
+	text-align:center;
+font-style: normal;
+font-weight: 300;
+	letter-spacing: 1px;
+    font-size:11px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      line-height: 100%;
+}
+a.darken:hover span{color:#black; visibility:visible;
+	
+    -webkit-transition: all 0.2s linear;
+       -moz-transition: all 0.2s linear;
+        -ms-transition: all 0.2s linear;
+         -o-transition: all 0.2s linear;
+            transition: all 0.2s linear;
+}
+
+
+
+.imagecaption {
+	font-weight:100;
+	color:grey;
+	font-family: helvetica;
+	text-align:center;
+}
+
+
+/*Freebies*/
+
+.freebiestitle {
+text-align: center;
+	font-family: futura-pt, sans-serif;
+font-style: normal;
+font-weight: 300;
+	font-color: grey;
+    font-size:12px;
+	letter-spacing:1px;
+}
+
+
+/*Philippines*/
+
+.philippinestitle {
+text-align: center;
+	font-family: futura-pt, sans-serif;
+font-style: normal;
+font-weight: 300;
+	font-color: grey;
+    font-size:12px;
+	letter-spacing:1px;
+}
+
+.ph1 {
+	width: 100%;
+	height:100%;
+}
+
+.ph2 {
+	width: 100%;
+	height:100%;
+}
+
+
+/*Graphics and Illustrations*/
+
+.graphicstitle {
+	text-align: center;
+	font-family: futura-pt, sans-serif;
+font-style: normal;
+font-weight: 300;
+	font-color: grey;
+    font-size:12px;
+	letter-spacing:1px;
+}
+
+.graphic1 {
+	width: 50%;
+	height: 50%;
+	float:left;
+	padding: 15px;
+	
+}
+
+.graphic2 {
+	width: 50%;
+	height: 50%;
+	float:right;
+padding: 15px;
+}
+
+.graphic3 {
+		width: 50%;
+	height: 50%;
+	float:left;
+	padding: 15px;
+	
+}
+
+
+
+
+/*Portraits*/
+
+.portraitstitle {
+	text-align: center;
+	font-family: futura-pt, sans-serif;
+font-style: normal;
+font-weight: 300;
+	font-color: grey;
+    font-size:12px;
+	letter-spacing:1px;
+}
+
+/*Home*/
+
+.hometitle {
+	text-align: center;
+	font-family: futura-pt, sans-serif;
+font-style: normal;
+font-weight: 300;
+	font-color: grey;
+    font-size:12px;
+	letter-spacing:1px;
+}
+
+.h1 {
+	width: 100%;
+	height:100%;
+}
+
+.h2 {
+	width: 100%;
+	height:100%;
+}
+
+.h3 {
+	width: 100%;
+	height:100%;
+}
+
+/*Bali*/
+
+.balititle {
+	text-align: center;
+	font-family: futura-pt, sans-serif;
+font-style: normal;
+font-weight: 300;
+	font-color: grey;
+    font-size:12px;
+	letter-spacing:1px;
+}
+
+.b1 {
+	width: 100%;
+	height:100%;
+}
+
+.b2 {
+	width: 100%;
+	height:100%;
+}
+
+.b3 {
+	width: 100%;
+	height:100%;
+}
+
+/*About me*/
+
+
+
+
+.aboutmeimage {
+	width: 100%;
+	height: 50%;
+	float:left;
+	padding:10px;
+}
+
+.aboutmetext {
+	width: 100%;
+	float:middle;
+	padding:10px;
+		  text-decoration: none;
+  color: black;
+font-family: futura-pt, sans-serif;
+text-align:left;
+font-style: normal;
+font-weight: 300;
+
+	letter-spacing:1px;
+	font-size:15px;
+
+}
+
+.middle {
+	text-align:left;
+	
+	
+	
+	  text-decoration: none;
+  color: black;
+font-family: futura-pt, sans-serif;
+
+font-style: normal;
+font-weight: 300;
+
+	letter-spacing:1px;
+	
+	
+	font-size:15px;
+
+
+}
+
+
+
+/*Contact*/
+
+
+
+.contacttext {
+font-family:helvetica;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	text-align: center;
+	
+	
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: black;
+}
+
+.q1 {
+	float:left;
+	width: 49%;
+	padding:10px;
+}
+
+.q2 {
+	width: 49%;
+	float:right;
+	padding:10px;
+}
+
+.q3 {
+	float:left;
+	width: 49%;
+		padding:10px;
+}
+
+.q4 {
+	width: 49%;
+	float:right;
+		padding:10px;
+}
+
+.message {
+	width:100%;
+	height: 200px;
+	padding:10px 10px 180px 10px;
+	resize:none;
+	
+}
+
+.message * {
+	float:right;
+}
+
+
+
+.contactbutton {
+	text-transform:uppercase;
+	text-align: center;
+ display: block;
+    margin: 0 auto;
+	width: 100px;
+	padding:10px;
+    background-color:black;
+    color:white;
+    border: none;
+    outline:none;
+   cursor:pointer;
+	border: 1px solid black; 
+}
+
+.contactbutton:hover {
+
+	 background-color:white;
+    color:black;
+	
+}
+
+
+/*Free Wallpapers*/
+
+.wallpapers {
+	width:40%;
+	height:40%;
+}
+
+
+/*Insta Stickers*/
+
+.stickers {
+	width:30%;
+	height:30%;
+}
+
+
+
+/*GIF Challenges*/
+
+.gifchallenges {
+	width:50%;
+	height:50%;
+}
+
+/*Thank You*/
+
+.thankyou {
+	text-align: center;
+	font-family: 'Pontano Sans', sans-serif;
+}
+
+/*Footer*/
+
+.ig {
+height: 17px;
+	width: 17px;
+float:right;
+padding:2px;
+	    opacity: 1;
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+}
+
+.ig:hover {
+	opacity: 0.3;
+}
+
+.pinterest {
+	height: 17px;
+	width: 17px;
+float:right;
+	padding:2px;
+	 opacity: 1;
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+}
+
+.pinterest:hover {
+	opacity: 0.3;
+}
+
+
+.rights {
+		text-decoration: none;
+
+font-family: futura-pt, sans-serif;
+
+font-style: normal;
+font-weight: 300;
+
+	color:grey;
+	font-size: 12px;
+	
+}
+
+/*Thank You*/
+.thankyou {
+font-family: 'Pontano Sans', sans-serif;
+	font-size:15px;
+	text-align:center;
+}
+
+
+
+
+/*Tablet View*/
+
+@media (min-width: 768px){
+	
+	body {
+		max-width: 778px;
+	}
+	
+	
+	.col-md-one-half {
+		width: 50%;
+	}
+	
+	.col {
+		float: left;
+		padding: 0px 7px 14px;
+	}
+}
+
+
+
+/*Desktop View*/
+
+@media (min-width: 1024px){
+	
+	body {
+		max-width: 778px;
+	}
+	
+	.col-md-one-half {
+		width: 50%;
+	}
+	
+	.col {
+		float: left;
+		padding: 0px 7px 14px;
+	}
+
+
+
+	.freebiestitle {
+		display:none;
+	}
+
+.balititle {
+		display:none;
+	}
+	
+	.philippinestitle {
+		display:none;
+	}
+	
+	.graphicstitle {
+		display:none;
+	}
+	
+	.portraitstitle {
+		display:none;
+	}
+	
+	.hometitle {
+		display:none;
+	}
+	
+}
