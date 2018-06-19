@@ -216,7 +216,7 @@ width:50%;
 	
 	.column {
     float: left;
-    width: 25%;
+    width: 50%;
     padding: 5px;
 }
 	.column img {
@@ -239,8 +239,8 @@ width:50%;
 
 
 img {
-	width: 100%;
-	max-width: 100%;
+	width: 50%;
+	max-width: 50%;
 	height: auto;
 	vertical-align: middle;
 }
