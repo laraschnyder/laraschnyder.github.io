@@ -17,7 +17,7 @@ a {
 
 .portfoliotitle {
 	font-family: futura-pt, sans-serif;
-	font-size: 20px;
+	font-size: 15px;
 	font-weight: bold;
 	text-transform: uppercase;
 	letter-spacing: 0.5px;
@@ -26,6 +26,7 @@ a {
 
 .portfoliotext {
 	font-family: futura-pt, sans-serif;
+	font-weight: lighter;
 	width: 100%;
 }
 
